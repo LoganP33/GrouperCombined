@@ -23,11 +23,6 @@
 		023FB72A25F18FD300351CB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023FB72825F18FD300351CB9 /* Main.storyboard */; };
 		023FB72C25F18FD300351CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023FB72B25F18FD300351CB9 /* Assets.xcassets */; };
 		023FB72F25F18FD300351CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023FB72D25F18FD300351CB9 /* LaunchScreen.storyboard */; };
-		02FA866D2620EB340079B200 /* ButtonFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FA866C2620EB340079B200 /* ButtonFile.swift */; };
-		02FA86712620EB610079B200 /* FriendPageReadytoSubmit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02FA866F2620EB610079B200 /* FriendPageReadytoSubmit.xcdatamodeld */; };
-		02FA86742620EB6A0079B200 /* SecomdScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FA86732620EB6A0079B200 /* SecomdScreenViewController.swift */; };
-		02FA86772620EB720079B200 /* UIIImageFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FA86762620EB720079B200 /* UIIImageFile.swift */; };
-		02FA867A2620EB830079B200 /* FriendPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FA86792620EB830079B200 /* FriendPageViewController.swift */; };
 		D136549606B636FA9F76E045 /* Pods_Grouper_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8F7193F5B63A373A5C913D /* Pods_Grouper_Login.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,11 +47,6 @@
 		023FB72B25F18FD300351CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		023FB72E25F18FD300351CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		023FB73025F18FD300351CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02FA866C2620EB340079B200 /* ButtonFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonFile.swift; sourceTree = "<group>"; };
-		02FA86702620EB610079B200 /* FriendPageReadytoSubmit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FriendPageReadytoSubmit.xcdatamodel; sourceTree = "<group>"; };
-		02FA86732620EB6A0079B200 /* SecomdScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecomdScreenViewController.swift; sourceTree = "<group>"; };
-		02FA86762620EB720079B200 /* UIIImageFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIIImageFile.swift; sourceTree = "<group>"; };
-		02FA86792620EB830079B200 /* FriendPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendPageViewController.swift; sourceTree = "<group>"; };
 		3E2BC557F58B5437EFAB8AE4 /* Pods-Grouper Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grouper Login.debug.xcconfig"; path = "Target Support Files/Pods-Grouper Login/Pods-Grouper Login.debug.xcconfig"; sourceTree = "<group>"; };
 		7F8F7193F5B63A373A5C913D /* Pods_Grouper_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grouper_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8578F57BFCDBDB34F86758 /* Pods-Grouper Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grouper Login.release.xcconfig"; path = "Target Support Files/Pods-Grouper Login/Pods-Grouper Login.release.xcconfig"; sourceTree = "<group>"; };
@@ -160,24 +150,10 @@
 				023FB73025F18FD300351CB9 /* Info.plist */,
 				02097E7A260D60FD006E56A8 /* Aaron */,
 				02097E74260D60C7006E56A8 /* Ben */,
-				02FA866B2620EAC50079B200 /* Cynthia */,
 				02097E65260D5F5E006E56A8 /* Logan */,
 				02097E66260D5FA3006E56A8 /* Tyler */,
 			);
 			path = "Grouper Login";
-			sourceTree = "<group>";
-		};
-		02FA866B2620EAC50079B200 /* Cynthia */ = {
-			isa = PBXGroup;
-			children = (
-				02FA866F2620EB610079B200 /* FriendPageReadytoSubmit.xcdatamodeld */,
-				02FA866C2620EB340079B200 /* ButtonFile.swift */,
-				02FA86792620EB830079B200 /* FriendPageViewController.swift */,
-				02FA86732620EB6A0079B200 /* SecomdScreenViewController.swift */,
-				02FA86762620EB720079B200 /* UIIImageFile.swift */,
-			);
-			name = Cynthia;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		616EB2DA7ABFD93CC72FFFA6 /* Frameworks */ = {
@@ -333,14 +309,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				02097E84260D627B006E56A8 /* ViewControllerContactTable.swift in Sources */,
-				02FA86772620EB720079B200 /* UIIImageFile.swift in Sources */,
-				02FA86712620EB610079B200 /* FriendPageReadytoSubmit.xcdatamodeld in Sources */,
 				023FB72725F18FD300351CB9 /* LoginViewController.swift in Sources */,
-				02FA867A2620EB830079B200 /* FriendPageViewController.swift in Sources */,
-				02FA86742620EB6A0079B200 /* SecomdScreenViewController.swift in Sources */,
 				02097E7D260D6197006E56A8 /* SearchViewController.swift in Sources */,
 				02097E85260D627B006E56A8 /* ViewControllerTopicTable.swift in Sources */,
-				02FA866D2620EB340079B200 /* ButtonFile.swift in Sources */,
 				02097E80260D625C006E56A8 /* GroupCreateViewController.swift in Sources */,
 				02097E71260D607D006E56A8 /* MessagesController.swift in Sources */,
 				021488D826015ACE0048A775 /* IconTextButton.swift in Sources */,
@@ -550,19 +521,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		02FA866F2620EB610079B200 /* FriendPageReadytoSubmit.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				02FA86702620EB610079B200 /* FriendPageReadytoSubmit.xcdatamodel */,
-			);
-			currentVersion = 02FA86702620EB610079B200 /* FriendPageReadytoSubmit.xcdatamodel */;
-			path = FriendPageReadytoSubmit.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 023FB71725F18FD200351CB9 /* Project object */;
 }
