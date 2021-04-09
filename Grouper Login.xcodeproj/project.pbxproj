@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0205E3502620F1F300058023 /* SecomdScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0205E3492620F1F300058023 /* SecomdScreenViewController.swift */; };
+		0205E3512620F1F300058023 /* Test in Resources */ = {isa = PBXBuildFile; fileRef = 0205E34A2620F1F300058023 /* Test */; };
+		0205E3522620F1F300058023 /* ButtonFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0205E34B2620F1F300058023 /* ButtonFile.swift */; };
+		0205E3532620F1F300058023 /* FriendPageReadytoSubmit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0205E34C2620F1F300058023 /* FriendPageReadytoSubmit.xcdatamodeld */; };
+		0205E3542620F1F300058023 /* FriendPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0205E34E2620F1F300058023 /* FriendPageViewController.swift */; };
+		0205E3552620F1F300058023 /* UIIImageFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0205E34F2620F1F300058023 /* UIIImageFile.swift */; };
 		02097E58260D217F006E56A8 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02097E57260D217F006E56A8 /* Search.storyboard */; };
 		02097E70260D607D006E56A8 /* Messages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02097E6D260D607C006E56A8 /* Messages.storyboard */; };
 		02097E71260D607D006E56A8 /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02097E6E260D607C006E56A8 /* MessagesController.swift */; };
@@ -27,6 +33,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0205E3492620F1F300058023 /* SecomdScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecomdScreenViewController.swift; sourceTree = "<group>"; };
+		0205E34A2620F1F300058023 /* Test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Test; sourceTree = "<group>"; };
+		0205E34B2620F1F300058023 /* ButtonFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonFile.swift; sourceTree = "<group>"; };
+		0205E34D2620F1F300058023 /* FriendPageReadytoSubmit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FriendPageReadytoSubmit.xcdatamodel; sourceTree = "<group>"; };
+		0205E34E2620F1F300058023 /* FriendPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendPageViewController.swift; sourceTree = "<group>"; };
+		0205E34F2620F1F300058023 /* UIIImageFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIIImageFile.swift; sourceTree = "<group>"; };
 		02097E57260D217F006E56A8 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		02097E6D260D607C006E56A8 /* Messages.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Messages.storyboard; path = "../../../../../Downloads/Messages_Screen_Files-2/Messages.storyboard"; sourceTree = "<group>"; };
 		02097E6E260D607C006E56A8 /* MessagesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessagesController.swift; path = "../../../../../Downloads/Messages_Screen_Files-2/MessagesController.swift"; sourceTree = "<group>"; };
@@ -64,6 +76,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0205E3482620F1F300058023 /* Cynthia */ = {
+			isa = PBXGroup;
+			children = (
+				0205E3492620F1F300058023 /* SecomdScreenViewController.swift */,
+				0205E34A2620F1F300058023 /* Test */,
+				0205E34B2620F1F300058023 /* ButtonFile.swift */,
+				0205E34C2620F1F300058023 /* FriendPageReadytoSubmit.xcdatamodeld */,
+				0205E34E2620F1F300058023 /* FriendPageViewController.swift */,
+				0205E34F2620F1F300058023 /* UIIImageFile.swift */,
+			);
+			path = Cynthia;
+			sourceTree = "<group>";
+		};
 		02097E5A260D5643006E56A8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +175,7 @@
 				023FB73025F18FD300351CB9 /* Info.plist */,
 				02097E7A260D60FD006E56A8 /* Aaron */,
 				02097E74260D60C7006E56A8 /* Ben */,
+				0205E3482620F1F300058023 /* Cynthia */,
 				02097E65260D5F5E006E56A8 /* Logan */,
 				02097E66260D5FA3006E56A8 /* Tyler */,
 			);
@@ -239,6 +265,7 @@
 				02097E70260D607D006E56A8 /* Messages.storyboard in Resources */,
 				02097E58260D217F006E56A8 /* Search.storyboard in Resources */,
 				023FB72A25F18FD300351CB9 /* Main.storyboard in Resources */,
+				0205E3512620F1F300058023 /* Test in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,15 +336,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				02097E84260D627B006E56A8 /* ViewControllerContactTable.swift in Sources */,
+				0205E3552620F1F300058023 /* UIIImageFile.swift in Sources */,
 				023FB72725F18FD300351CB9 /* LoginViewController.swift in Sources */,
 				02097E7D260D6197006E56A8 /* SearchViewController.swift in Sources */,
+				0205E3532620F1F300058023 /* FriendPageReadytoSubmit.xcdatamodeld in Sources */,
+				0205E3502620F1F300058023 /* SecomdScreenViewController.swift in Sources */,
 				02097E85260D627B006E56A8 /* ViewControllerTopicTable.swift in Sources */,
 				02097E80260D625C006E56A8 /* GroupCreateViewController.swift in Sources */,
+				0205E3542620F1F300058023 /* FriendPageViewController.swift in Sources */,
 				02097E71260D607D006E56A8 /* MessagesController.swift in Sources */,
 				021488D826015ACE0048A775 /* IconTextButton.swift in Sources */,
 				02097E72260D607D006E56A8 /* MessageTableViewCell.swift in Sources */,
 				023FB72325F18FD300351CB9 /* AppDelegate.swift in Sources */,
 				023FB72525F18FD300351CB9 /* SceneDelegate.swift in Sources */,
+				0205E3522620F1F300058023 /* ButtonFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +553,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0205E34C2620F1F300058023 /* FriendPageReadytoSubmit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0205E34D2620F1F300058023 /* FriendPageReadytoSubmit.xcdatamodel */,
+			);
+			currentVersion = 0205E34D2620F1F300058023 /* FriendPageReadytoSubmit.xcdatamodel */;
+			path = FriendPageReadytoSubmit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 023FB71725F18FD200351CB9 /* Project object */;
 }
