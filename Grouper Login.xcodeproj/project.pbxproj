@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0205E3502620F1F300058023 /* SecomdScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0205E3492620F1F300058023 /* SecomdScreenViewController.swift */; };
-		0205E3512620F1F300058023 /* Test in Resources */ = {isa = PBXBuildFile; fileRef = 0205E34A2620F1F300058023 /* Test */; };
 		0205E3522620F1F300058023 /* ButtonFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0205E34B2620F1F300058023 /* ButtonFile.swift */; };
 		0205E3532620F1F300058023 /* FriendPageReadytoSubmit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0205E34C2620F1F300058023 /* FriendPageReadytoSubmit.xcdatamodeld */; };
 		0205E3542620F1F300058023 /* FriendPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0205E34E2620F1F300058023 /* FriendPageViewController.swift */; };
@@ -34,7 +33,6 @@
 
 /* Begin PBXFileReference section */
 		0205E3492620F1F300058023 /* SecomdScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecomdScreenViewController.swift; sourceTree = "<group>"; };
-		0205E34A2620F1F300058023 /* Test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Test; sourceTree = "<group>"; };
 		0205E34B2620F1F300058023 /* ButtonFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonFile.swift; sourceTree = "<group>"; };
 		0205E34D2620F1F300058023 /* FriendPageReadytoSubmit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FriendPageReadytoSubmit.xcdatamodel; sourceTree = "<group>"; };
 		0205E34E2620F1F300058023 /* FriendPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendPageViewController.swift; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				0205E3492620F1F300058023 /* SecomdScreenViewController.swift */,
-				0205E34A2620F1F300058023 /* Test */,
 				0205E34B2620F1F300058023 /* ButtonFile.swift */,
 				0205E34C2620F1F300058023 /* FriendPageReadytoSubmit.xcdatamodeld */,
 				0205E34E2620F1F300058023 /* FriendPageViewController.swift */,
@@ -265,7 +262,6 @@
 				02097E70260D607D006E56A8 /* Messages.storyboard in Resources */,
 				02097E58260D217F006E56A8 /* Search.storyboard in Resources */,
 				023FB72A25F18FD300351CB9 /* Main.storyboard in Resources */,
-				0205E3512620F1F300058023 /* Test in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
