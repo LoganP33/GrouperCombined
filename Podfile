@@ -9,6 +9,7 @@ target 'Grouper Login' do
 
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
+pod 'Firebase/Analytics'
 pod 'GoogleSignIn'  
 
 pod 'FBSDKLoginKit'

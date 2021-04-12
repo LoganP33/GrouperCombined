@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>1055897855037-79472ps4pltddbir7j63gcpbncqphfoh.apps.googleusercontent.com</string>
+	<string>755755412996-2af963ol993pegh2h1t1om7mjc2vsf8l.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1055897855037-79472ps4pltddbir7j63gcpbncqphfoh</string>
+	<string>com.googleusercontent.apps.755755412996-2af963ol993pegh2h1t1om7mjc2vsf8l</string>
 	<key>API_KEY</key>
-	<string>AIzaSyC8FsQWYTp4TQnEV03junWobuqgr64eQ-Y</string>
+	<string>AIzaSyCa1-Q9AV0ydn6kgTQiX8dTvZ1TYJVh9Gc</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1055897855037</string>
+	<string>755755412996</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>Logan-Prestigiacomo.Grouper-Login</string>
 	<key>PROJECT_ID</key>
-	<string>grouper-ee198</string>
+	<string>grouper-71556</string>
 	<key>STORAGE_BUCKET</key>
-	<string>grouper-ee198.appspot.com</string>
+	<string>grouper-71556.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1055897855037:ios:6be3ee45cc98074ef27654</string>
+	<string>1:755755412996:ios:5ba69594020f438cbb8f51</string>
+	<key>DATABASE_URL</key>
+	<string>https://grouper-71556-default-rtdb.firebaseio.com</string>
 </dict>
 </plist>
